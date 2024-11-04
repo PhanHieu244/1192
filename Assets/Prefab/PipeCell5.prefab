@@ -211,14 +211,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 0}
+  m_Sprite: {fileID: 21300000, guid: 039effe704b55924db6960e44205a637, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -259,14 +259,14 @@ MonoBehaviour:
     B: 0
     fillColor: 
   pipeSprites:
-  - {fileID: 21300000, guid: 4b498dc424ee43fc8ce59e33167cb912, type: 3}
-  - {fileID: 21300000, guid: 2318eae734a644dab675e60cad47efe1, type: 3}
-  - {fileID: 21300000, guid: 2a9d8484f94a43a39c62718a136da29d, type: 3}
-  - {fileID: 21300000, guid: 7274a12870074f2ba99332679592e50a, type: 3}
-  - {fileID: 21300000, guid: 7e0201decff84e698a1c7225c3a09cc8, type: 3}
-  - {fileID: 21300000, guid: 1a2f584fbbfc402494b387b7a1072e19, type: 3}
-  - {fileID: 21300000, guid: 049f467dfb7149c0a69a487516c90be3, type: 3}
-  - {fileID: 21300000, guid: 19d3483852014f81ab4c86939b0d923d, type: 3}
+  - {fileID: 21300000, guid: 186eab043b74dea439e7cb4e8f5be28d, type: 3}
+  - {fileID: 21300000, guid: 47ce5e3176484dc4da7a6db2f98ae3d5, type: 3}
+  - {fileID: 21300000, guid: 19cff3eec5e5be34fab5205798e0e0ec, type: 3}
+  - {fileID: 21300000, guid: 28f21c7affc4090408e530f0bf64145c, type: 3}
+  - {fileID: 21300000, guid: 6219ed294f651bf47a8baf5645b37fb4, type: 3}
+  - {fileID: 21300000, guid: e0c5885cff18d6741adea371dcbbf25e, type: 3}
+  - {fileID: 21300000, guid: 98c0666d2fbf6b9498965093b8f7b58f, type: 3}
+  - {fileID: 21300000, guid: 62f91be59db258d4cb48ebedf8e45425, type: 3}
   correctRotateDelta: 2
   redundant: 0
 --- !u!114 &1790415148045804973

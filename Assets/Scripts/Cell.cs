@@ -54,11 +54,11 @@ public class Cell : MonoBehaviour
 			{
 				RotationValue = rightRotationValue;
 				ApplyRotationOnImage(0.05f);
-				GetComponent<Image>().color = ColorManager.intance.hintCellBGColor;
+				//GetComponent<Image>().color = ColorManager.intance.hintCellBGColor;
 			}
 			else
 			{
-				GetComponent<Image>().color = ColorManager.intance.normalCellBGColor;
+				//GetComponent<Image>().color = ColorManager.intance.normalCellBGColor;
 			}
 			_isHint = value;
 		}

@@ -97,14 +97,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 0}
+  m_Sprite: {fileID: 21300000, guid: 039effe704b55924db6960e44205a637, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -139,14 +139,14 @@ MonoBehaviour:
     B: 1
     fillColor: 
   pipeSprites:
-  - {fileID: 21300000, guid: 0d8865599692486aa71d755c6f5687f2, type: 3}
-  - {fileID: 21300000, guid: 7340c69b961643af8ee94e9c3cdd260c, type: 3}
-  - {fileID: 21300000, guid: 76e2a8ab687942c991248295a24aeb79, type: 3}
-  - {fileID: 21300000, guid: 53405cb21a4e4a4b97802eb2479d7d58, type: 3}
-  - {fileID: 21300000, guid: fc7c77daa6084300a08a8f3d8f9aff17, type: 3}
-  - {fileID: 21300000, guid: 70a5561ed9364143ab027fe499709e47, type: 3}
-  - {fileID: 21300000, guid: 64558e6a43bc465bae90e3954f0cb538, type: 3}
-  - {fileID: 21300000, guid: da074439bb2a45749d33e78bf73cd4a6, type: 3}
+  - {fileID: 21300000, guid: c419e91cd4a17154b81b33857b1c1157, type: 3}
+  - {fileID: 21300000, guid: 15c7f1bdcc3bca24483f7b483fb39238, type: 3}
+  - {fileID: 21300000, guid: 07e696bec6965394ba678cac86681c11, type: 3}
+  - {fileID: 21300000, guid: d6edf6ca4fac80747a2558c3420f1c2e, type: 3}
+  - {fileID: 21300000, guid: 1aa4eb343338911418bc242de4e9b051, type: 3}
+  - {fileID: 21300000, guid: d13edca73c9128a4696a3b6301f430b1, type: 3}
+  - {fileID: 21300000, guid: 1cf1c5eb673445945892f2362df284f5, type: 3}
+  - {fileID: 21300000, guid: 545786814180e0c4eab059ef600029a5, type: 3}
   correctRotateDelta: 4
   redundant: 0
 --- !u!114 &1790415148045804995
@@ -258,7 +258,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 0d8865599692486aa71d755c6f5687f2, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 1cf1c5eb673445945892f2362df284f5, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1

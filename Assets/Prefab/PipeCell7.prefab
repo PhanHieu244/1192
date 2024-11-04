@@ -61,13 +61,13 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1790415148045804904}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 1, w: 0}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1790415148045804943}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 180}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
@@ -101,7 +101,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 16183a10bfd449adbce1d6635a987ea6, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 4b235e7d66713434992c723ff31ae954, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -172,14 +172,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 0}
+  m_Sprite: {fileID: 21300000, guid: 039effe704b55924db6960e44205a637, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -214,14 +214,14 @@ MonoBehaviour:
     B: 1
     fillColor: 
   pipeSprites:
-  - {fileID: 21300000, guid: 16183a10bfd449adbce1d6635a987ea6, type: 3}
-  - {fileID: 21300000, guid: 746bff4d16484ee0aaf4d8b1696e84e5, type: 3}
-  - {fileID: 21300000, guid: b70c2df6ee674cd3981ac182d5cd6010, type: 3}
-  - {fileID: 21300000, guid: 6b22759dd1c54a49a77de67f4b6a7654, type: 3}
-  - {fileID: 21300000, guid: 3dd50288a671453dbc10d9b5d10610bd, type: 3}
-  - {fileID: 21300000, guid: 78dfb687819f429182b03cdf278c42e9, type: 3}
-  - {fileID: 21300000, guid: 722b2206ab9149b4b399a3f4f80131b9, type: 3}
-  - {fileID: 21300000, guid: d27acd1e247d47fcb2c39041ad9ba083, type: 3}
+  - {fileID: 21300000, guid: 4b235e7d66713434992c723ff31ae954, type: 3}
+  - {fileID: 21300000, guid: 55ddfa9df5780424d86d8d0d16eb2df0, type: 3}
+  - {fileID: 21300000, guid: bbbf0b5179ef5574fbc8cfb7a8c5bb5f, type: 3}
+  - {fileID: 21300000, guid: 4e51c3781735d1546b47191d8deeddaf, type: 3}
+  - {fileID: 21300000, guid: f4285875072f789498b9cc19fde6cdd2, type: 3}
+  - {fileID: 21300000, guid: 49fcfb944bdc602419483d0f10ddfd5d, type: 3}
+  - {fileID: 21300000, guid: 5a0f00407dc229a4c80557063c64cb8b, type: 3}
+  - {fileID: 21300000, guid: 6311064ffc881ca4082e11bdcad27a6f, type: 3}
   correctRotateDelta: 4
   redundant: 0
 --- !u!114 &1790415148045804991
