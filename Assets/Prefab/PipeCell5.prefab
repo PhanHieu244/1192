@@ -244,7 +244,7 @@ MonoBehaviour:
   defaultColor: 0
   rightRotationValue: 0
   pipeParent: {fileID: 1790415148045804953}
-  pipeCellType: 0
+  pipeCellType: 2
   pipes:
   - pipeImage: {fileID: 1790415148045804977}
     L: 0

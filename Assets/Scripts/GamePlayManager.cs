@@ -329,7 +329,7 @@ public class GamePlayManager : MonoBehaviour
 				GameManager.CurrentLevelNo++;
 				SetupLevel();
 			});
-			nextBtn.GetComponentInChildren<Text>().text = "NEXT";
+			//nextBtn.GetComponentInChildren<Text>().text = "NEXT";
 		}
 		else
 		{
@@ -339,7 +339,7 @@ public class GamePlayManager : MonoBehaviour
 				closeGameOver = true;
 				GameScene.instance.OnBackBtn();
 			});
-			nextBtn.GetComponentInChildren<Text>().text = "BACK";
+			//nextBtn.GetComponentInChildren<Text>().text = "BACK";
 		}
 		nextBtn.interactable = false;
 		closeBtn.interactable = false;

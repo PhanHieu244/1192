@@ -18,6 +18,7 @@ using UnityEngine.UI;
 
 public class Cell : MonoBehaviour
 {
+	[SerializeField] private Car car;
 	public Vector2Int pos;
 
 	public PipeColor defaultColor;
@@ -170,6 +171,7 @@ public class Cell : MonoBehaviour
 		{
 			pipes.ForEach(delegate(Pipe p)
 			{
+				if(car != null && pipeCellType == CellType.Start) car.SetUpCar((int)defaultColor);
 				p.pipeImage.sprite = pipeSprites[(int)defaultColor];
 			});
 		}
