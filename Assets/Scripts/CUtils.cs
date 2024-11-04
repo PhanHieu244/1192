@@ -20,7 +20,6 @@ public class CUtils
 {
 	public static void OpenStore()
 	{
-		Application.OpenURL("https://play.google.com/store/apps/details?id=" + GameConfig.instance.androidPackageID);
 	}
 
 	public static void OpenStore(string id)
@@ -207,18 +206,7 @@ public class CUtils
 
 	public static void ShowInterstitialAd()
 	{
-		if (IsActionAvailable("show_ads", GameConfig.instance.interstitialAdPeriod))
-		{
-			bool flag = AdmobController.instance.ShowInterstitial();
-			if (!flag)
-			{
-				AdmobController.instance.RequestInterstitial();
-			}
-			if (flag)
-			{
-				SetActionTime("show_ads");
-			}
-		}
+		
 	}
 
 	public static void LoadScene(int sceneIndex, bool useScreenFader = false)

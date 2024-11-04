@@ -46,7 +46,7 @@ public class GameScene : MonoBehaviour
 	{
 		instance = this;
 		rewardValueText.text = "+" + GameConfig.instance.rewardedVideoAmount;
-		coinForHintText.text = GameConfig.instance.numCoinForHint.ToString();
+		//coinForHintText.text = GameConfig.instance.numCoinForHint.ToString();
 		skipCoinValueText.text = GameConfig.instance.numCoinForSkipGame.ToString();
 		Music.instance.Play(Music.Type.MainMusic);
 	}

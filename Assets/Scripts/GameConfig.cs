@@ -18,10 +18,6 @@ using UnityEngine;
 [Serializable]
 public class GameConfig : MonoBehaviour
 {
-	public Admob admob;
-
-	[Header("")]
-	public int interstitialAdPeriod;
 
 	public int rewardedVideoPeriod;
 
@@ -30,14 +26,6 @@ public class GameConfig : MonoBehaviour
 	public int numCoinForHint;
 
 	public int numCoinForSkipGame;
-
-	public string androidPackageID;
-
-	public string iosAppID;
-
-	public string facebookPageID;
-
-	public string feedbackEmail;
 
 	public static GameConfig instance;
 

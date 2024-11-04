@@ -21,8 +21,6 @@ public class LevelGroupButton : MonoBehaviour
 {
 	public LevelGroup levelGroup;
 
-	public Text TitleLbl;
-
 	public Text LevelCompletdLbl;
 
 	public GameObject AwardGoldImage;
@@ -46,7 +44,6 @@ public class LevelGroupButton : MonoBehaviour
 	public void UpdateUI()
 	{
 		base.name = levelGroup.LevelGroupName;
-		TitleLbl.text = base.name.ToUpper();
 		LevelCompletdLbl.text = levelGroup.CompletedLevel + " / " + levelGroup.TotalLevel;
 		AwardGoldImage.SetActive(levelGroup.CompletedLevel >= levelGroup.TotalLevel);
 	}

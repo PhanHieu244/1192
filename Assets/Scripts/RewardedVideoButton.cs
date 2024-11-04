@@ -12,7 +12,6 @@ daily assets update for try.
 U should buy the asset from home store if u use it in your project!
 */
 
-using GoogleMobileAds.Api;
 using UnityEngine;
 using UnityEngine.Events;
 
@@ -29,44 +28,22 @@ public class RewardedVideoButton : MonoBehaviour
 
 	private void AddEvents()
 	{
-		if (AdmobController.instance.rewardBasedVideo != null)
-		{
-			AdmobController.instance.rewardBasedVideo.OnAdRewarded += HandleRewardBasedVideoRewarded;
-		}
+		
 	}
 
 	public void OnClick()
 	{
-		if (IsAdAvailable())
-		{
-			AdmobController.instance.ShowRewardBasedVideo();
-		}
-		else
-		{
-			Toast.instance.ShowMessage("Ad is not available now, please wait..");
-		}
+		Toast.instance.ShowMessage("Ad is not available now, please wait..");
 		Sound.instance.PlayButton();
 	}
 
-	public void HandleRewardBasedVideoRewarded(object sender, Reward args)
+	public void HandleRewardBasedVideoRewarded(object sender)
 	{
 		onRewarded.Invoke();
 	}
 
 	public bool IsAdAvailable()
 	{
-		if (AdmobController.instance.rewardBasedVideo == null)
-		{
-			return false;
-		}
-		return AdmobController.instance.rewardBasedVideo.IsLoaded();
-	}
-
-	private void OnDisable()
-	{
-		if (AdmobController.instance.rewardBasedVideo != null)
-		{
-			AdmobController.instance.rewardBasedVideo.OnAdRewarded -= HandleRewardBasedVideoRewarded;
-		}
+		return false;
 	}
 }

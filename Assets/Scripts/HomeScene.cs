@@ -165,13 +165,11 @@ public class HomeScene : MonoBehaviour
 	public void OnSendFeedback()
 	{
 		Sound.instance.PlayButton();
-		Application.OpenURL("mailto:" + GameConfig.instance.feedbackEmail);
 	}
 
 	public void OnFB()
 	{
 		Sound.instance.PlayButton();
-		CUtils.LikeFacebookPage(GameConfig.instance.facebookPageID);
 	}
 
 	public void PlayButton()

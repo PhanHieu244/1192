@@ -30,7 +30,6 @@ public class ScreenFader : MonoBehaviour
 
 	private void Start()
 	{
-		GTil.Init(this);
 	}
 
 	public void FadeOut(Action onComplete)

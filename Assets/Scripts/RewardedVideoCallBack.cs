@@ -12,7 +12,6 @@ daily assets update for try.
 U should buy the asset from home store if u use it in your project!
 */
 
-using GoogleMobileAds.Api;
 using UnityEngine;
 
 public class RewardedVideoCallBack : MonoBehaviour
@@ -26,21 +25,6 @@ public class RewardedVideoCallBack : MonoBehaviour
 
 	private void AddEvents()
 	{
-		if (AdmobController.instance.rewardBasedVideo != null)
-		{
-			AdmobController.instance.rewardBasedVideo.OnAdRewarded += HandleRewardBasedVideoRewarded;
-		}
-	}
-
-	public void HandleRewardBasedVideoRewarded(object sender, Reward args)
-	{
-	}
-
-	private void OnDestroy()
-	{
-		if (AdmobController.instance.rewardBasedVideo != null)
-		{
-			AdmobController.instance.rewardBasedVideo.OnAdRewarded -= HandleRewardBasedVideoRewarded;
-		}
+		
 	}
 }
